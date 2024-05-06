@@ -1,0 +1,93 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --LightGrey: hsl(217, 12%, 63%);
+    --MediumGrey: hsl(216, 12%, 54%);
+    --DarkBlue: hsl(213, 19%, 18%);
+    --VeryDarkBlue: hsl(216, 12%, 8%);
+    --Orange: hsl(25, 97%, 53%)
+
+}
+
+*{
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--VeryDarkBlue);
+}
+
+.Header{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.Header > h1{
+    color: var(--White);
+}
+.rated{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+p{
+    font-family: arial;
+    color: var(--LightGrey);
+    font-size: 16px;
+}
+Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: none;
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    padding: 12px;
+    border-radius: 300px;
+    background-color:rgb(52, 58, 70);
+    margin: 10px;
+}
+Button:hover{
+    color: var(--White);
+    background-color: var(--Orange);
+}
+Button p:hover{
+    color: white;
+}
+
+.Submit{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 40px;
+    width: 350px;
+    color: var(--White);
+    background-color: var(--Orange);
+    font-family: arial;
+}
+.Submit:hover{
+    background-color: var(--White);
+    color: var(--Orange);
+}
+
+.star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+    width: 40px;
+    background-color: rgb(52, 58, 70);
+    border-radius: 50px;
+}
